@@ -1,0 +1,47 @@
+.container-fluid{
+  margin-top: 40px;
+}
+.github {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+i {
+  font-size: 150px;
+  padding: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.link i {
+  font-size: 20px;
+  padding: 8px;
+  position: absolute;
+  animation: flutuar 5s infinite;
+  left: -30px;
+}
+
+@keyframes flutuar {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(180deg);
+  }
+  50% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}

@@ -1,0 +1,22 @@
+<div class="container-fluid">
+
+  <div class="text-center">
+    <h1>Juros simples</h1>
+  </div>
+
+   <div class="inputs">
+
+      <label for="capital">Capital:</label>
+      <input type="number" class="form-control" [(ngModel)] = "capital"  >
+      <label for="taxa">Taxa de juros em %:</label>
+      <input type="number" class="form-control" [(ngModel)] = "taxa">
+      <label for="tempo">Tempo:</label>
+      <input type="number" class="form-control" [(ngModel)] = "tempo">
+
+  </div>
+
+  <div class="resultado">
+    <p>Resultado: {{calculaJuros()}}</p>
+  </div>
+
+</div>

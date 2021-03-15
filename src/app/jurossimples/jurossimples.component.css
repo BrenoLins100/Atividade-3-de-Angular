@@ -1,0 +1,9 @@
+
+.container-fluid{
+  margin-top: 40px;
+  padding: 20px;
+}
+
+input,label{
+  padding: 10px 0;
+}
