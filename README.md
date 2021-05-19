@@ -14,3 +14,7 @@ Criar no StackBlitz um novo projeto com 3 páginas (componentes):
 4. ⚡Os valores dos juros acumulados devem ser apresentadas em uma tabela
 
 5. ⚡Uma que mostre seus dados de identificação: RA, nome completo e link do perfil no GitHub
+
+## Link para a aplicação no StackBlitz:
+
+https://stackblitz.com/edit/atv-3?file=src/app/app.component.ts
